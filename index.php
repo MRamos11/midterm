@@ -15,7 +15,7 @@
 get_header(); ?>
 
 <div class="myMario">
-	<?php myMario(); ?>
+	<?php myMario(10); ?>
 </div>
 
 	<div id="primary" class="content-area">

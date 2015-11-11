@@ -151,13 +151,20 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
- function myMario (){
- 	echo "Mario is the best";
- 	echo "<br>";
- 	echo "Mario is the best";
- 	 	echo "<br>";
+ 
+function myMario($bucketSize){
 
- 	echo "Mario is the best";
- 	 	 	echo "<br>";
- 	echo "Mario is the best";
- };
+								$x = 1;
+
+								while ($x <= $bucketSize ){
+									if ($x == 1){
+										echo $x."Mushroom for mario!";
+										echo "<br>";
+									} else {
+										echo $x." Mushroom for mario";
+										echo "<br>";
+									}	
+									$x ++;
+								} 
+
+						}
