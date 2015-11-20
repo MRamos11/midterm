@@ -168,3 +168,38 @@ function myMario($bucketSize){
 								} 
 
 						}
+
+// function myCounter(){
+
+// 		jQuery(document).ready(function(){
+ 
+// 		var counter = 0;
+
+		
+
+// 		jQuery('#redDiv').on('click',function(){
+// 			counter++;
+// 			jQuery('#myCounter').html(counter);
+// 		});
+
+// 		jQuery('#blueDiv').on('click',function(){
+// 			counter--;
+// 			jQuery('#myCounter').html(counter);
+// 		});
+
+
+// 	});// document ready
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
